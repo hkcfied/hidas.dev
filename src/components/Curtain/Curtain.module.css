@@ -1,0 +1,57 @@
+.top,
+.bottom {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background: var(--color-accent-red);
+  transition: transform var(--transition-smooth);
+  pointer-events: none;
+}
+
+.top {
+  top: 0;
+  height: 50vh;
+  transform: translateY(0);
+}
+
+.bottom {
+  bottom: 0;
+  height: 50vh;
+  transform: translateY(0);
+}
+
+.top.open {
+  transform: translateY(-100%);
+}
+
+.bottom.open {
+  transform: translateY(100%);
+}
+
+.label {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.label span {
+  font-family: var(--font-exposit);
+  font-size: 4vw;
+  color: var(--color-text);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.label span.hidden {
+  opacity: 0;
+}

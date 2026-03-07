@@ -1,0 +1,25 @@
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 4vw;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  font-family: var(--font-exposit);
+  color: #e34d50;
+  font-size: 8vw;
+  line-height: 8vw;
+  text-align: center;
+  transition: opacity 0.3s ease;
+}
+
+@media (min-width: 992px) {
+  .header {
+    display: none;
+  }
+}

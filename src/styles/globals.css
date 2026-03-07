@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+
+@font-face {
+  font-family: 'Exposit';
+  src: url('https://assets.website-files.com/5e873efb1e5bbf36b46d0515/5faab1ea497c08b36ffcd069_Exposit-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+
+/* CSS Variables */
+:root {
+  --color-bg: #0d0d0d;
+  --color-text: #ffffff;
+  --color-accent-red: #b73e41;
+  --color-accent-amber: #a76c03;
+  --color-border: #333333;
+  --color-surface: #111111;
+  --color-surface-light: #1a1a1a;
+
+  --font-exposit: 'Exposit', sans-serif;
+  --font-grotesk: 'Space Grotesk', sans-serif;
+
+  --transition-standard: 0.3s ease;
+  --transition-smooth: 1.2s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: auto;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-exposit);
+  overflow-x: hidden;
+  height: 12000px;
+}
+
+/* Hide default cursor */
+body {
+  cursor: none;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-accent-amber);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-red);
+}

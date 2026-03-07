@@ -1,0 +1,75 @@
+.subtitle {
+  font-family: var(--font-exposit);
+  font-size: clamp(14px, 2vw, 28px);
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--color-accent-amber);
+  text-align: center;
+  line-height: 1.8;
+}
+
+.heading {
+  font-family: var(--font-grotesk);
+  font-weight: 700;
+  font-size: clamp(40px, 9.5vw, 160px);
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  text-align: center;
+  line-height: 0.9;
+  white-space: nowrap;
+}
+
+.greeting {
+  font-family: var(--font-exposit);
+  font-size: clamp(20px, 3.5vw, 60px);
+  text-transform: lowercase;
+  color: var(--color-accent-amber);
+  letter-spacing: 0.1em;
+}
+
+.display {
+  font-family: var(--font-grotesk);
+  font-weight: 700;
+  font-size: clamp(60px, 16vw, 260px);
+  text-transform: uppercase;
+  color: var(--color-text);
+  line-height: 0.85;
+  letter-spacing: -0.03em;
+}
+
+.body {
+  font-family: var(--font-exposit);
+  font-size: clamp(16px, 2.5vw, 40px);
+  color: var(--color-text);
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+.label {
+  font-family: var(--font-exposit);
+  font-size: clamp(12px, 1.5vw, 22px);
+  color: var(--color-accent-amber);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.location {
+  font-family: var(--font-grotesk);
+  font-weight: 700;
+  font-size: clamp(50px, 11vw, 180px);
+  color: var(--color-text);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 0.9;
+  letter-spacing: -0.03em;
+}
+
+.accent1 {
+  color: var(--color-accent-red);
+}
+
+.accent2 {
+  color: var(--color-accent-amber);
+}

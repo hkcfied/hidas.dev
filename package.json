@@ -1,0 +1,28 @@
+{
+  "name": "hidas.dev",
+  "version": "1.0.0",
+  "description": "Hidas K C - Full Stack Engineer | hidas.dev",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.54.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "terser": "^5.46.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  }
+}
